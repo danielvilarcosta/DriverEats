@@ -239,7 +239,7 @@
     </main>
     <footer>
       <div class="menu-inferior">
-        <div class="barra-selecionar" data-test="order-btn">
+        <div class="barra-selecionar" >
           <p>Selecionar os 3 itens</p>
           <p>para fechar o pedido</p>
         </div>
@@ -255,7 +255,7 @@
         <h4 class="titulo-confirmacao">Confirme seu pedido</h4>
         <ul class="itens-confirmacao"></ul>
         <div class="botoes">
-          <div class="botao-confirmacao confirmar" onclick="enviaPedido()">
+          <div class ="botao-confirmacao confirmar" onclick="enviaPedido()"data-test="order-btn">
             Tudo certo, pode pedir!
           </div>
           <div class="botao-confirmacao cancelar" onclick="cancelaPedido()">
