@@ -29,7 +29,7 @@
       </div>
     </header>
     <main>
-      <div class="container-itens">
+      <div class="container-itens" data-test="dish">
         <div class="item-select">Primeiro, seu prato</div>
         <div class="itens-rolagem pratos">
           <div class="select-item" onclick="escolherPrato(this)">
@@ -37,7 +37,7 @@
               src="src/images/pratos/omelete.jpg"
               alt="foto de uma omelete"
             />
-            <div class="nome">Omelete</div>
+            <div class="nome" data-test="dish">Omelete</div>
             <div class="descricao-item">
               Ovos, queijo mussarela, bacon, tomates cereja
             </div>
@@ -49,7 +49,7 @@
               src="src/images/pratos/tapioca2.jpg"
               alt="foto de uma tapioca"
             />
-            <div class="nome">Tapioca Carne Seca</div>
+            <div class="nome" data-test="dish">Tapioca Carne Seca</div>
             <div class="descricao-item">
               300g de carne de sol seca desfiada, queijo mussarela
             </div>
@@ -61,7 +61,7 @@
               src="src/images/pratos/Salada-Caesar.jpg"
               alt="foto de uma salada ceaser"
             />
-            <div class="nome">Salada Ceaser</div>
+            <div class="nome" data-test="dish">Salada Ceaser</div>
             <div class="descricao-item">
               Alface romana, frango grelhado, aliche, parmesão, molho ceaser
             </div>
@@ -73,7 +73,7 @@
               src="src/images/pratos/pao-de-queijo.jpg"
               alt="foto de um recipiente com pães de queijo"
             />
-            <div class="nome">Pão de Queijo</div>
+            <div class="nome" data-test="dish">Pão de Queijo</div>
             <div class="descricao-item">
               Pão de queijo tradicional de queijo prato, contém 10 unidades
             </div>
@@ -85,7 +85,7 @@
               src="src/images/pratos/panqueca-frango.jpg"
               alt="foto de uma panqueca"
             />
-            <div class="nome">Wrap de Frango</div>
+            <div class="nome" data-test="dish">Wrap de Frango</div>
             <div class="descricao-item">
               Frango desfiado, molho de tomate, queijo mussarela, cebolinha
             </div>
@@ -112,7 +112,7 @@
               src="src/images/bebidas/coca.webp"
               alt="foto de um refigerante de cola"
             />
-            <div class="nome">Coca-Cola</div>
+            <div class="nome" data-test="drink">Coca-Cola</div>
             <div class="descricao-item">Refigerante de 350ml</div>
             <div class="valor">R$ 5,00</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
@@ -122,7 +122,7 @@
               src="src/images/bebidas/guarana-antarctica.jpeg"
               alt="foto de um refigerante guaraná"
             />
-            <div class="nome">Guaraná Antártica</div>
+            <div class="nome"data-test="drink">Guaraná Antártica</div>
             <div class="descricao-item">Refigerante de 350ml</div>
             <div class="valor">R$ 5,00</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
@@ -132,7 +132,7 @@
               src="src/images/bebidas/suco-maracuja.jpg"
               alt="foto de um copo de suco de maracujá"
             />
-            <div class="nome">Suco de Maracujá</div>
+            <div class="nome"data-test="drink">Suco de Maracujá</div>
             <div class="descricao-item">Suco da fruta, 400ml</div>
             <div class="valor">R$ 6,00</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
@@ -142,7 +142,7 @@
               src="src/images/bebidas/suco-laranja.jpg"
               alt="foto de um suco de laranja"
             />
-            <div class="nome">Suco de Laranja</div>
+            <div class="nome"data-test="drink">Suco de Laranja</div>
             <div class="descricao-item">Suco da fruta, 400ml</div>
             <div class="valor">R$ 6,00</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
@@ -152,7 +152,7 @@
               src="src/images/bebidas/vitamina-de-abacate.jpg"
               alt="foto de uma batida de abacate "
             />
-            <div class="nome">Vitamina Abacate</div>
+            <div class="nome"data-test="drink">Vitamina Abacate</div>
             <div class="descricao-item">Vitamina de 300ml</div>
             <div class="valor">R$ 7,90</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
@@ -162,14 +162,14 @@
               src="src/images/bebidas/milk-shake.jpg"
               alt="foto de um milk-shake"
             />
-            <div class="nome">Milk-shake</div>
+            <div class="nome"data-test="drink">Milk-shake</div>
             <div class="descricao-item">Milk-shake de 300ml</div>
             <div class="valor">R$ 10,90</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
           </div>
         </div>
       </div>
-      <div class="container-itens">
+      <div class="container-itens"data-test="dessert">
         <div class="item-select">Por fim, sua sobremesa</div>
         <div class="itens-rolagem sobremesas">
           <div class="select-item" onclick=" escolherSobremesas(this)">
@@ -177,8 +177,7 @@
               src="src/images/sobremesas/brigadeiro.jpg"
               alt="foto de três brigadeiros"
             />
-            <div class="nome">Brigadeiro</div>
-            <div class="descricao-item">
+            <div class="descricao-item"data-test="dessert">
               Brigadeiro tradicional, granulado chocolate
             </div>
             <div class="valor">R$ 2,50</div>
@@ -189,7 +188,7 @@
               src="src/images/sobremesas/bolo-no-pote-floresta-negra.jpg"
               alt="foto de um bolo no pote com tres camadas"
             />
-            <div class="nome">Floresta Negra</div>
+            <div class="nome"data-test="dessert">Floresta Negra</div>
             <div class="descricao-item">Bolo no Pote - Floresta Negra</div>
             <div class="valor">R$ 6,90</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
@@ -199,7 +198,7 @@
               src="src/images/sobremesas/bolo-pote.jpg"
               alt="foto de uma bolo no pote de chocolate"
             />
-            <div class="nome">Bolo de Chocolate</div>
+            <div class="nome"data-test="dessert">Bolo de Chocolate</div>
             <div class="descricao-item">
               Bolo no Pote - chocolate com morangos
             </div>
@@ -240,7 +239,7 @@
     </main>
     <footer>
       <div class="menu-inferior">
-        <div class="barra-selecionar">
+        <div class="barra-selecionar" data-test="order-btn">
           <p>Selecionar os 3 itens</p>
           <p>para fechar o pedido</p>
         </div>
