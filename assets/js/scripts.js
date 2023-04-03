@@ -1,5 +1,5 @@
 function escolherPrato(prato) {
-    let pratoSelecionado = document.querySelector(".pratos .escolhido");
+    const pratoSelecionado = document.querySelector(".pratos .escolhido");
   
     if (!!pratoSelecionado) {
       pratoSelecionado.classList.remove("escolhido");
@@ -10,7 +10,7 @@ function escolherPrato(prato) {
   }
   
   function escolherBebidas(bebida) {
-    let bebidaSelecionada = document.querySelector(".bebidas .escolhido");
+    const bebidaSelecionada = document.querySelector(".bebidas .escolhido");
   
     if (!!bebidaSelecionada) {
       bebidaSelecionada.classList.remove("escolhido");
@@ -21,7 +21,7 @@ function escolherPrato(prato) {
   }
   
   function escolherSobremesas(sobremesa) {
-    let sobremesaSelecionada = document.querySelector(".sobremesas .escolhido");
+    const sobremesaSelecionada = document.querySelector(".sobremesas .escolhido");
   
     if (!!sobremesaSelecionada) {
       sobremesaSelecionada.classList.remove("escolhido");
@@ -54,9 +54,9 @@ function escolherPrato(prato) {
   
   function fechandoPedido() {
     let pedido = {};
-    let pratoSelecionado = document.querySelector(".pratos .escolhido");
-    let bebidaSelecionada = document.querySelector(".bebidas .escolhido");
-    let sobremesaSelecionada = document.querySelector(".sobremesas .escolhido");
+    const pratoSelecionado = document.querySelector(".pratos .escolhido");
+    const bebidaSelecionada = document.querySelector(".bebidas .escolhido");
+    const sobremesaSelecionada = document.querySelector(".sobremesas .escolhido");
   
     const nomePrato = pratoSelecionado.querySelector(".nome").innerHTML;
     const nomeBebida = bebidaSelecionada.querySelector(".nome").innerHTML;
