@@ -250,15 +250,15 @@
         </div>
       </div>
     </footer>
-    <div class="tela-de-confirmacao nenhuma-selecao">
+    <div data-test="confirm-order-modal" class="tela-de-confirmacao nenhuma-selecao">
       <div class="dados-do-pedido">
         <h4 class="titulo-confirmacao">Confirme seu pedido</h4>
         <ul class="itens-confirmacao"></ul>
         <div class="botoes">
-          <div class="botao-confirmacao confirmar" onclick="enviaPedido()">
+          <div data-test="confirm-order-btn" class="botao-confirmacao confirmar" onclick="enviaPedido()">
             Tudo certo, pode pedir!
           </div>
-          <div class="botao-confirmacao cancelar" onclick="cancelaPedido()">
+          <div data-test="cancel-order-btn" class="botao-confirmacao cancelar" onclick="cancelaPedido()">
             Cancelar
           </div>
         </div>
