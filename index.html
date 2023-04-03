@@ -29,75 +29,75 @@
       </div>
     </header>
     <main>
-      <div class="container-itens" data-test="dish">
+      <div class="container-itens" >
         <div class="item-select">Primeiro, seu prato</div>
         <div class="itens-rolagem pratos">
-          <div class="select-item" onclick="escolherPrato(this)">
+          <div class="select-item" data-test="dish" onclick="escolherPrato(this)">
             <img
               src="assets/images/pratos/omelete.jpg"
               alt="foto de uma omelete"
             />
-            <div class="nome" data-test="dish">Omelete</div>
+            <div data-test="item-name" class="nome" >Omelete</div>
             <div class="descricao-item">
               Ovos, queijo mussarela, bacon, tomates cereja
             </div>
             <div data-test="item-price" class="valor">R$ 15,90</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
           </div>
-          <div class="select-item" onclick="escolherPrato(this)">
+          <div class="select-item" data-test="dish" onclick="escolherPrato(this)">
             <img
               src="assets/images/pratos/tapioca2.jpg"
               alt="foto de uma tapioca"
             />
-            <div class="nome" data-test="dish">Tapioca Carne Seca</div>
+            <div data-test="item-name" class="nome" >Tapioca Carne Seca</div>
             <div class="descricao-item">
               300g de carne de sol seca desfiada, queijo mussarela
             </div>
             <div  data-test="item-price" class="valor">R$ 17,90</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
           </div>
-          <div class="select-item" onclick="escolherPrato(this)">
+          <div class="select-item" data-test="dish" onclick="escolherPrato(this)">
             <img
               src="assets/images/pratos/Salada-Caesar.jpg"
               alt="foto de uma salada ceaser"
             />
-            <div class="nome" data-test="dish">Salada Ceaser</div>
+            <div data-test="item-name" class="nome" >Salada Ceaser</div>
             <div class="descricao-item">
               Alface romana, frango grelhado, aliche, parmesão, molho ceaser
             </div>
             <div data-test="item-price" class="valor">R$ 14,90</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
           </div>
-          <div class="select-item" onclick="escolherPrato(this)">
+          <div class="select-item" data-test="dish" onclick="escolherPrato(this)">
             <img
               src="assets/images/pratos/pao-de-queijo.jpg"
               alt="foto de um recipiente com pães de queijo"
             />
-            <div data-test="dish" class="nome" >Pão de Queijo</div>
+            <div data-test="item-name" class="nome" >Pão de Queijo</div>
             <div class="descricao-item">
               Pão de queijo tradicional de queijo prato, contém 10 unidades
             </div>
             <div data-test="item-price" class="valor">R$ 8,90</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
           </div>
-          <div class="select-item" onclick="escolherPrato(this)">
+          <div class="select-item"  data-test="dish" onclick="escolherPrato(this)">
             <img
               src="assets/images/pratos/panqueca-frango.jpg"
               alt="foto de uma panqueca"
             />
-            <div data-test="dish" class="nome" >Wrap de Frango</div>
+            <div data-test="item-name" class="nome" >Wrap de Frango</div>
             <div class="descricao-item">
               Frango desfiado, molho de tomate, queijo mussarela, cebolinha
             </div>
             <div data-test="item-price" class="valor">R$ 13,90</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
           </div>
-          <div class="select-item" onclick="escolherPrato(this)">
+          <div class="select-item" data-test="dish" onclick="escolherPrato(this)">
             <img
               src="assets/images/pratos/salpicao.jpg"
               alt="foto de um belíssimo salpicão"
             />
-            <div class="nome">Salpicão</div>
+            <div data-test="item-name" class="nome">Salpicão</div>
             <div class="descricao-item">Salpicão no pote de 350g</div>
             <div data-test="item-price" class="valor">R$ 16,90</div>
             <ion-icon class="escondido" name="checkmark-circle"></ion-icon>
@@ -107,7 +107,7 @@
       <div class="container-itens">
         <div class="item-select">Agora, sua bebida</div>
         <div class="itens-rolagem bebidas">
-          <div class="select-item" onclick="escolherBebidas(this)">
+          <div class="select-item"  onclick="escolherBebidas(this)">
             <img
               src="assets/images/bebidas/coca.webp"
               alt="foto de um refigerante de cola"
